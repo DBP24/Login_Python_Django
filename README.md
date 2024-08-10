@@ -7,17 +7,20 @@
    git clone <URL_DEL_REPOSITORIO>
 
 2. **Instala las dependencias:**
-```bash
+    ```bash
     pip install -r requirements.txt
 
 3. **Aplica las migraciones de la base de datos:**
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
 
 4. **Crea un super usuario:**
+    ```bash
     python manage.py createsuperuser
 
 5. **Ejecuta el servicio de desarrollo:**
+    ```bash
     python manage.py runserver
 
 **Información Adicional**
@@ -25,4 +28,5 @@ Este proyecto proporciona un sistema de autenticación interactivo con inicio de
 
 Esperamos que esta guía sea de utilidad.
 
-Realizado por **Diego Bonatti Pajuelo**
+```bash
+Realizado por "Diego Bonatti Pajuelo"
