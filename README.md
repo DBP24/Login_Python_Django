@@ -7,6 +7,7 @@
    git clone <URL_DEL_REPOSITORIO>
 
 2. **Instala las dependencias:**
+```bash
     pip install -r requirements.txt
 
 3. **Aplica las migraciones de la base de datos:**
